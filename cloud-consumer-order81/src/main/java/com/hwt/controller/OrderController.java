@@ -1,6 +1,6 @@
 package com.hwt.controller;
 
-import com.hwt.pojo.Payment;
+import com.hwt.entity.pojo.Payment;
 import com.hwt.result.Result;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
