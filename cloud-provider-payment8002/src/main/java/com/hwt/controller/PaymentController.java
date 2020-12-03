@@ -39,4 +39,8 @@ public class PaymentController {
         return ReturnResult.OK(paymentService.selectById(payment.getId()));
     }
 
+    @GetMapping(value = "/lb")
+    public String getLb(){
+        return serverPort;
+    }
 }

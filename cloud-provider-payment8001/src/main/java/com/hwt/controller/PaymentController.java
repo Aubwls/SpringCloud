@@ -54,4 +54,9 @@ public class PaymentController {
         });
         return ReturnResult.OK();
     }
+
+    @GetMapping(value = "/lb")
+    public String getLb(){
+        return serverPort;
+    }
 }
